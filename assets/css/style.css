@@ -1,11 +1,10 @@
 header,
 footer{
     background-color: rgb(37, 93, 77);
-    height: 60px;
     color: white;
     font-size: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 header{
@@ -24,4 +23,12 @@ footer{
 
 figure{
     margin: 0;
+    text-align: center;
+    border-top: 10px solid rgb(188, 150, 127);
+    color: rgb(79, 72, 70);
+    font-size: 20px;
+}
+
+h1{
+    font-size: 40px;
 }
