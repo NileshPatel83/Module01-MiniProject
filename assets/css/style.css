@@ -4,7 +4,7 @@ footer{
     color: white;
     font-size: 20px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 header{
@@ -12,7 +12,9 @@ header{
 }
 
 footer{
+    margin: 0;
     text-align: center;  
+    padding-bottom: 10px;
 }
 
 #github,
@@ -21,14 +23,31 @@ footer{
     display: inline;
 }
 
-figure{
+ul{
     margin: 0;
+}
+
+body{
     text-align: center;
-    border-top: 10px solid rgb(188, 150, 127);
     color: rgb(79, 72, 70);
+}
+
+figure{
+    margin: 0;   
+    border-top: 10px solid rgb(188, 150, 127); 
     font-size: 20px;
 }
 
 h1{
     font-size: 40px;
+}
+
+li{
+    display: block;
+}
+
+form{
+    background: rgb(232, 206, 191);
+    padding-bottom: 20px;
+    border-top: 3px solid rgb(221, 176, 148);
 }
