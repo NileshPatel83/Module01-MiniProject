@@ -1,0 +1,21 @@
+header,
+footer{
+    background-color: rgb(37, 93, 77);
+    height: 60px;
+    color: white;
+    font-size: 20px;
+}
+
+header{
+    text-align: right;
+}
+
+footer{
+    text-align: center;  
+}
+
+#github,
+#portfolio,
+#contact{
+    display: inline;
+}
