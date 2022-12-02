@@ -11,46 +11,48 @@
         <header>
             <nav>
                 <ul>
-                    <li id="github"><a href="https://www.github.com">GitHub</a></li>
-                    <li id="portfolio"><a href="#">Portfolio</a></li>
-                    <li id="contact"><a href="#">Contact</a></li>
+                    <li class="text-right"><a href="https://www.github.com">GitHub</a></li>
+                    <li class="text-right"><a href="#">Portfolio</a></li>
+                    <li class="text-right"><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
+            <h1>My New Website</h1>
+
             <!--Image Sectcion-->
             <figure>
-                <h1>My New Website</h1>
                 <img src ="./assets/image/Image.png"alt="My Image" />
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, quae.</p>
+                <figcaption>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, quae.</figcaption>
             </figure>
 
             <!--Contact Form-->
-            <form>
+            <section>
                 <h2>Contact Me</h2>
 
-                <ul id="contact-border">
-                    <li>
-                        <label for="name"> Name:</label>
-                        <input type="text" name="name" required>
-                    </li>
-                    
-                    <li>
-                        <label for="email"> Email:</label>
-                        <input type="text" name="email" required>
-                    </li>
+                <form>
+                    <ul>
+                        <li>
+                            <label class="text-right" for="name"> Name:</label>
+                            <input type="text" name="name" required>
+                        </li>
+                        
+                        <li>
+                            <label class="text-right" for="email"> Email:</label>
+                            <input type="text" name="email" required>
+                        </li>
 
-                    <div class="send">
-                        <input id="button" type="submit" value="SEND" style="background:  rgb(79, 72, 70); 
-                        color: white; height: 30px;width: 100px;" >
-                    </div>
-                </ul>
-            </form>
+                        <div>
+                            <button type="button">SEND</button>
+                        </div>
+                    </ul>
+                </form>
+            </section>
         </main>
 
         <footer>
-            <p>2022 My New Website Production</p>
+            2022 My New Website Production
         </footer>
     </body>
 </html>
